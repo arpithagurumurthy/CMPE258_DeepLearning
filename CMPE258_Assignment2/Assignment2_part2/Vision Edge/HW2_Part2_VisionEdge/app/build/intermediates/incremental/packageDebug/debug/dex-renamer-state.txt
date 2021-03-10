@@ -1,4 +1,0 @@
-#Sun Mar 07 08:59:01 PST 2021
-base.0=/Users/arpitha/Documents/tensorflow-for-poets-2/android/tflite/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
-file.0=/Users/arpitha/Documents/tensorflow-for-poets-2/android/tflite/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
