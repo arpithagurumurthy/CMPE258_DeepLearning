@@ -3,7 +3,6 @@ Following the instructions in https://codelabs.developers.google.com/codelabs/ti
 
 ### Set Up
 1.  Started with enabling the BigQuery Storage API 
-*Insert image1*
 2.  Created an AI Platform Notebooks instance on the Cloud Console
 3.  Navigated to training-data-analyst/courses/ai-for-time-series/notebooks executed 01-explore.ipynb, also checked in this file on github for reference.
 The dataset for this notebook is cta_ridership.csv, also uploaded in github for reference.
