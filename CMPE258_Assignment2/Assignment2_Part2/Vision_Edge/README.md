@@ -1,36 +1,11 @@
-x`# TF Lite Android App
+# Train and deploy on-device image classification model with AutoML Vision in ML Kit
+Followed instructions as per: https://codelabs.developers.google.com/codelabs/automl-vision-edge-in-mlkit#1
 
-## Building from Source with Bazel
+Steps followed:
+1. On Firebase Console created a new project called "ML Kit Codelab".
+2. Added our Android app to the Firebase project and downloaded the google-services.json
+3. Uploaded the training dataset of flowers - flower_photos.zip
+4. Trained an image classification model for the above mentioned dataset.
+5. We were also able to run our model on the firebase console itself.
+6. Once the model was trained and deployed, we downloaded the model as .tflite and imported it into our android studio project.
 
-1. Follow the [Bazel steps for the TF Demo App](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#bazel):
-
-  1. [Install Bazel and Android Prerequisites](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#install-bazel-and-android-prerequisites).
-     It's easiest with Android Studio.
-
-      - You'll need at least SDK version 23.
-      - Bazel requires Android Build Tools `26.0.1` or higher.
-      - You also need to install the Android Support Repository, available
-        through Android Studio under `Android SDK Manager -> SDK Tools ->
-        Android Support Repository`.
-
-  2. [Edit your `WORKSPACE`](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#edit-workspace)
-     to add SDK and NDK targets.
-
-      - Make sure the `api_level` in `WORKSPACE` is set to an SDK version that
-        you have installed.
-      - By default, Android Studio will install the SDK to `~/Android/Sdk` and
-        the NDK to `~/Android/Sdk/ndk-bundle`.
-
-2. Build the app with Bazel. The demo needs C++11:
-
-  ```shell
-  bazel build -c opt --cxxopt='--std=c++11' \
-    //tensorflow/contrib/lite/java/demo/app/src/main:TfLiteCameraDemo
-  ```
-
-3. Install the demo on a
-   [debug-enabled device](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#install):
-
-  ```shell
-  adb install bazel-bin/tensorflow/contrib/lite/java/demo/app/src/main/TfLiteCameraDemo.apk
-  ```
