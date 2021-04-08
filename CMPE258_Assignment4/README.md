@@ -13,4 +13,4 @@ This pixel-value is an integer between 0 and 255, inclusive.
 Designing a neural network on MNIST handwritten digit images to identify the number in the image.
 The notebook is using numpy and keras to do the same without CNN.
 
-
+*Please Note: The augmentation section is included in the keras notebook*
