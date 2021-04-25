@@ -21,9 +21,9 @@ Kaggle dataset link: https://www.kaggle.com/c/new-york-city-taxi-fare-prediction
 * fare_amount - cost of the ride in dollars. 
 
 ### Description of the 4 files
-CMPE258_HW5_PartA.ipynb : end to end tensorflow model pipeline
-CMPE258_HW5_PartB.ipynb : end to end TFX interactivecontext pipeline
-CMPE258_HW5_PartC.ipynb : end to end PyTorch implementation of the same
-CMPE258_HW5_PartD.ipynb : end to end implementation using XGBoost
+1. CMPE258_HW5_PartA.ipynb : end to end tensorflow model pipeline
+2. CMPE258_HW5_PartB.ipynb : end to end TFX interactivecontext pipeline
+3. CMPE258_HW5_PartC.ipynb : end to end PyTorch implementation of the same
+4. CMPE258_HW5_PartD.ipynb : end to end implementation using XGBoost
 
 
