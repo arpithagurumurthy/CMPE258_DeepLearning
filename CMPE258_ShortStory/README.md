@@ -1,12 +1,15 @@
-# **Short Story Assignment**
+# **Short Story Assignment: DeepFakes and beyond**
 
-* Medium article: 
+Discusses different facial manipulations techniques and ways to detect them. 
+
+
+* Medium article: </br>
 https://arpithagurumurthy.medium.com/real-or-reel-the-bane-of-deep-learning-ef110f9bd09f
 
-* Slide share link:
+* Slide share link: </br>
 https://www.slideshare.net/ArpithaGurumurthy/deep-fakes-and-beyond-246957502
 
 * Video explaining the same is uploaded under this directory.
 
-* Research paper is also uploaded here.
-Link for the same: https://arxiv.org/pdf/2001.00179.pdf
+* Research paper: </br>
+https://arxiv.org/pdf/2001.00179.pdf
